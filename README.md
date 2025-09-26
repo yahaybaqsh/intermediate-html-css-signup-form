@@ -1,6 +1,6 @@
 # نموذج التسجيل الاحترافي
+<img width="862" height="643" alt="لقطة الشاشة 2025-09-26 085609" src="https://github.com/user-attachments/assets/ed085145-d5c4-4fca-9914-641803f590d3" />
 
-![Project Preview](https://placehold.co/800x400/667eea/ffffff?text=نموذج+التسجيل+الاحترافي)
 
 نموذج تسجيل احترافي مصمم باللغة العربية مع واجهة مستخدم عصرية وجذابة.
 
