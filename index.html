@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- خط خارجي (مثال: Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="image-sidebar">
+            <div class="logo">احترافي</div>
+            <p class="image-text">انضم إلى مجتمعنا المتنامي وابدأ رحلتك نحو التميز والاحتراف في عالم التكنولوجيا والتصميم</p>
+        </div>
+        
+        <div class="form-container">
+            <h1 class="form-title">إنشاء حساب جديد</h1>
+            <form>
+                <div class="form-group">
+                    <label for="firstName" class="form-label">الاسم الأول</label>
+                    <input type="text" id="firstName" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName" class="form-label">اسم العائلة</label>
+                    <input type="text" id="lastName" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">عنوان البريد الإلكتروني</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password" class="form-label">كلمة المرور</label>
+                    <input type="password" id="password" class="form-input" 
+                           pattern=".{8,}" title="يجب أن تكون كلمة المرور 8 أحرف على الأقل" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmPassword" class="form-label">تأكيد كلمة المرور</label>
+                    <input type="password" id="confirmPassword" class="form-input" 
+                           pattern=".{8,}" title="يجب أن تكون كلمة المرور 8 أحرف على الأقل" required>
+                </div>
+                
+                <button type="submit" class="submit-button">إنشاء الحساب</button>
+            </form>
+            
+            <p class="terms-text">
+                بالتسجيل، فإنك توافق على <a href="#" class="terms-link">شروط الخدمة</a> و<a href="#" class="terms-link">سياسة الخصوصية</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
